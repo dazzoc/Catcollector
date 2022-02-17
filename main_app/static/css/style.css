@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.nav-wrapper {
+    background-color: darkslategray;
+}
+  
+main {
+    flex: 1 0 auto;
+}
+
+.card-content {
+    color: darkslategray;
+}
+
+.card-title {
+    color: black;
+}
+  
+footer {
+    padding: 20px;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.page-footer {
+    background-color: darkslategray;
+}
